@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#main_container {
+    width: 100vw;
+    height: 100vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background-color: #BFEAF5
+}
+
+#strt {
+    position: relative;
+    top: 40%;
+    left: 40%;
+    width: 20vw;
+}
+
+#user {
+    padding: 0.4rem;
+    margin: 1rem 0;
+    width: 100%;
+    font-size: 1.2rem;
+    outline: none;
+    border: 1px solid black;
+}
+
+#error_user {
+    border: 1px solid red;
+}
+
+#start_btn {
+    padding: 10px;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    display: block;
+    margin: auto;
+    border-radius: 8%;
+    background-color: #A6BB8D;
+    cursor: pointer;
+}
+
+.show_box {
+    display: block;
+    z-index: 3;
+}
+
+#qns_box {
+    /* display: none; */
+    position: relative;
+    top: 10%;
+    left: 30%;
+    width: 40vw;
+    background-color: #F5F5F5;
+    padding: 2rem 4rem;
+    border-radius: 9px;
+    /* opacity: 0; */
+    box-shadow: 1rem 1rem 0.5rem -0.7rem rgba(0,0,0,0.5);
+}
+
+#qns {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+#qns_box li {
+    font-size: 1.5rem;
+    margin-top: 0.6rem;
+    list-style-type: none;
+}
+
+.answer {
+    width: 1rem;
+    height: 1rem;
+    cursor: pointer;
+}
+
+label {
+    cursor: pointer;
+}
+
+/* #qns_box ul {
+    box-shadow: 0 0.8rem 1rem -0.9rem rgba(0,0,0,0.5);
+} */
+
+#qns_box footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.3rem;
+}
+#next_qns {
+    padding: .2rem .8rem;
+    font-size: 1.3rem;
+    background-color: #A6BB8D;
+    border-radius: 10px;
+    border: none;
+}
+
+#next_qns :hover {
+    background-color: #61876E;
+}
+
+#total_qns {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+button {
+    cursor: pointer;
+}
+
+#result_show {
+    display: block;
+    position: relative;
+    top: 20%;
+    left: 38%;
+    width: 30vw;
+    background-color: #F5F5F5;
+    padding: 2rem 4rem;
+    border-radius: 9px;
+    box-shadow: 1rem 1rem 0.5rem -0.7rem rgba(0,0,0,0.5); 
+    text-align: center;
+}
+
+#player_name {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+#your_result {
+    font-size: 2.5rem;
+    margin-top: 3%;
+    font-weight: 400;
+}
+
+#play_again {
+    margin-top: 15%;
+    padding: .4rem .8rem;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #A6BB8D;
+}
